@@ -1,0 +1,152 @@
+
+* {
+    padding: 0;
+    margin: 0;
+}
+img{
+    /*防止图片与元素底边产生缝隙*/
+    vertical-align: middle;
+    /*禁止IE10以下浏览器显示边框*/
+    border: none;
+}
+body{
+    background: url("../img/bg1.png") repeat-x;
+    *background:url("../img/bg1.png") repeat-x;
+}
+
+.wrapper{
+    width: 950px;
+    /*background-color: orange;*/
+    margin: 0 auto;
+
+}
+.header{
+    height: 150px;
+    text-align: center;
+    line-height: 150px;
+}
+.header a{
+    font:18px  Microsoft YaHei,tahoma,arial,Hiragino Sans GB,\\5b8b\4f53,sans-serif;
+    color: #000;
+    text-decoration: none;
+}
+
+.header a:hover{
+    text-decoration: underline;
+}
+.nav-logo:hover{
+    text-decoration: none;
+}
+.left{
+    margin-left: 30px;
+}
+.right{
+    margin-left: 30px;
+}
+.banner{
+    text-align: center;
+}
+
+.our-service, .service-process{
+    /*background-color: yellow;*/
+    text-align: center;
+    font-family: "STZhongsong", "Times New Roman", Georgia, Serif;
+    margin-top: 34px;
+}
+
+.our-service h1, .service-process h1{
+    font-size: 66px;
+    color: #2C4855;
+}
+.our-service h2, .service-process h2{
+    font-size: 32px;
+    color: #2C4855;
+}
+.our-service h3{
+    font:bold 18px Microsoft YaHei,tahoma,arial,Hiragino Sans GB,\\5b8b\4f53,sans-serif;
+    color: #000;
+    margin: 35px 0 16px 0;
+}
+.our-service h4{
+    font:18px Microsoft YaHei,tahoma,arial,Hiragino Sans GB,\\5b8b\4f53,sans-serif;
+    color: #7F7F7F;
+}
+.our-service-list{
+    list-style: none;
+    /*background-color: yellow;*/
+    overflow: hidden;
+    /*解决IE6高度塌陷*/
+    *zoom: 1;
+}
+
+.our-service-list li{
+    float: left;
+    margin-left: 26px;
+}
+.first-list{
+    margin-left: 120px !important;
+}
+.line{
+    width: 950px;
+    height: 3px;
+    background-color: #BEBEBE;
+    margin-top: 46px;
+    /*IE6设置高度失效问题*/
+    *overflow: hidden;
+}
+
+.service-process{
+    text-align: center;
+    overflow: hidden;
+}
+.service-process-list{
+    list-style: none;
+}
+.service-process-list li{
+    margin-left: 26px;
+    float: left;
+}
+
+.bottom{
+    text-align: center;
+}
+.bottom-log{
+    margin: 55px 0 20px 0;
+}
+.icon-process{
+    margin: 35px 0 16px 0;
+}
+.first-item{
+    margin-left: 80px !important;
+}
+.footer{
+    text-align: center;
+    height: 308px;
+    background: url("../img/bg-footer.png");
+    min-width: 950px;
+}
+
+.footer h2{
+    color: white;
+    margin-top: 100px;
+}
+
+.footer h3{
+    color: white;
+}
+.footer h4{
+    color: white;
+}
+
+.footer-txt3{
+    color: yellow !important;
+}
+
+.icon-footer{
+    margin-top: 20px;
+}
+.footer-txt5{
+    margin-top: 16px;
+}
+
+
